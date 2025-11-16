@@ -1,0 +1,35 @@
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { Navbar } from './components/Navbar'
+import { Footer } from './components/Footer'
+import { LandingPage } from './pages/LandingPage'
+import { AuthPage } from './pages/AuthPage'
+import { MandatoryDetailsPage } from './pages/MandatoryDetailsPage'
+import { OptionalDetailsPage } from './pages/OptionalDetailsPage'
+import { RecommendationPage } from './pages/RecommendationPage'
+import { ComparePlansPage } from './pages/ComparePlansPage'
+import { SIPCalculatorPage } from './pages/SIPCalculatorPage'
+import { NotFoundPage } from './pages/NotFoundPage'
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/auth" element={<AuthPage />} />
+          <Route path="/details" element={<MandatoryDetailsPage />} />
+          <Route path="/optional" element={<OptionalDetailsPage />} />
+          <Route path="/recommendation" element={<RecommendationPage />} />
+          <Route path="/compare" element={<ComparePlansPage />} />
+          <Route path="/sip-calculator" element={<SIPCalculatorPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  )
+}
+
+export default App
