@@ -130,12 +130,85 @@ const learningHubContent: Topic[] = [
         thumbnail: 'https://img.youtube.com/vi/3f3f3f3f3f3/mqdefault.jpg'
       }
     ]
+  },
+  {
+    id: 'gold',
+    title: 'Gold',
+    description: 'Gold is a traditional safe-haven investment that acts as a hedge against inflation and economic uncertainty. You can invest in gold through physical gold, Gold ETFs, Gold Mutual Funds, or Sovereign Gold Bonds. Gold typically performs well during market downturns and currency devaluation.',
+    keyPoints: [
+      'Acts as a hedge against inflation and economic uncertainty',
+      'Low correlation with stocks - provides portfolio diversification',
+      'Multiple ways to invest: Physical, ETFs, Mutual Funds, SGBs',
+      'Sovereign Gold Bonds offer 2.5% annual interest plus gold price appreciation',
+      'Ideal for 5-10% of your portfolio allocation',
+      'Liquidity varies by investment method (ETFs are most liquid)'
+    ],
+    videos: [
+      {
+        id: 'gold-1',
+        title: 'Gold Investment Guide: Physical vs Digital Gold',
+        url: 'https://www.youtube.com/watch?v=4g4g4g4g4g4',
+        duration: '11:20',
+        thumbnail: 'https://img.youtube.com/vi/4g4g4g4g4g4/mqdefault.jpg'
+      },
+      {
+        id: 'gold-2',
+        title: 'Sovereign Gold Bonds (SGB) Explained: Complete Guide',
+        url: 'https://www.youtube.com/watch?v=5h5h5h5h5h5',
+        duration: '14:30',
+        thumbnail: 'https://img.youtube.com/vi/5h5h5h5h5h5/mqdefault.jpg'
+      },
+      {
+        id: 'gold-3',
+        title: 'Gold ETFs vs Gold Mutual Funds: Which is Better?',
+        url: 'https://www.youtube.com/watch?v=6i6i6i6i6i6',
+        duration: '9:45',
+        thumbnail: 'https://img.youtube.com/vi/6i6i6i6i6i6/mqdefault.jpg'
+      }
+    ]
+  },
+  {
+    id: 'government-bonds',
+    title: 'Government Bonds',
+    description: 'Government bonds are debt securities issued by the government to raise funds. They are considered one of the safest investments as they are backed by the government. You can invest through Government Securities (G-Secs), State Development Loans (SDLs), or bond mutual funds. They provide steady, predictable returns with minimal default risk.',
+    keyPoints: [
+      'Highest safety - backed by the government (virtually no default risk)',
+      'Fixed interest payments (coupon) at regular intervals',
+      'Suitable for conservative investors seeking capital preservation',
+      'Lower returns compared to equity but more stable',
+      'Ideal for short to medium-term goals (1-5 years)',
+      'Can invest directly or through debt mutual funds',
+      'Tax benefits available on certain government bonds'
+    ],
+    videos: [
+      {
+        id: 'bonds-1',
+        title: 'Government Bonds Explained: Safe Investment Option',
+        url: 'https://www.youtube.com/watch?v=7j7j7j7j7j7',
+        duration: '13:15',
+        thumbnail: 'https://img.youtube.com/vi/7j7j7j7j7j7/mqdefault.jpg'
+      },
+      {
+        id: 'bonds-2',
+        title: 'How to Invest in Government Bonds: Step by Step',
+        url: 'https://www.youtube.com/watch?v=8k8k8k8k8k8',
+        duration: '16:20',
+        thumbnail: 'https://img.youtube.com/vi/8k8k8k8k8k8/mqdefault.jpg'
+      },
+      {
+        id: 'bonds-3',
+        title: 'Government Bonds vs Fixed Deposits: Which is Better?',
+        url: 'https://www.youtube.com/watch?v=9l9l9l9l9l9',
+        duration: '12:40',
+        thumbnail: 'https://img.youtube.com/vi/9l9l9l9l9l9/mqdefault.jpg'
+      }
+    ]
   }
 ]
 
 /**
  * Learning Hub Page Component
- * Displays educational content about SIPs, Mutual Funds, and Stocks
+ * Displays educational content about SIPs, Mutual Funds, Stocks, Gold, and Government Bonds
  */
 export const LearningHubPage: React.FC = () => {
   return (
