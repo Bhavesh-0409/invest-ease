@@ -43,21 +43,21 @@ const learningHubContent: Topic[] = [
         title: 'What is SIP? Complete Guide for Beginners',
         url: 'https://youtu.be/PbldLCsspgE',
         duration: '19:31',
-        thumbnail: 'https://img.youtube.com/vi/PbldLCsspgE/maxresdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'sip-2',
         title: 'How SIP Works: Power of Compounding',
         url: 'https://www.youtube.com/watch?v=6yY6Y6Y6Y6Y',
         duration: '10:15',
-        thumbnail: 'https://img.youtube.com/vi/6yY6Y6Y6Y6Y/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'sip-3',
         title: 'SIP vs Lump Sum Investment: Which is Better?',
         url: 'https://www.youtube.com/watch?v=7zZ7Z7Z7Z7Z',
         duration: '12:00',
-        thumbnail: 'https://img.youtube.com/vi/7zZ7Z7Z7Z7Z/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       }
     ]
   },
@@ -113,21 +113,21 @@ const learningHubContent: Topic[] = [
         title: 'Stock Market Basics: How Stocks Work',
         url: 'https://www.youtube.com/watch?v=1d1d1d1d1d1',
         duration: '12:30',
-        thumbnail: 'https://img.youtube.com/vi/1d1d1d1d1d1/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'stocks-2',
         title: 'How to Start Investing in Stocks: Step by Step',
         url: 'https://www.youtube.com/watch?v=2e2e2e2e2e2',
         duration: '16:45',
-        thumbnail: 'https://img.youtube.com/vi/2e2e2e2e2e2/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'stocks-3',
         title: 'Stock Market vs Mutual Funds: Which Should You Choose?',
         url: 'https://www.youtube.com/watch?v=3f3f3f3f3f3',
         duration: '13:20',
-        thumbnail: 'https://img.youtube.com/vi/3f3f3f3f3f3/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       }
     ]
   },
@@ -149,21 +149,21 @@ const learningHubContent: Topic[] = [
         title: 'Gold Investment Guide: Physical vs Digital Gold',
         url: 'https://www.youtube.com/watch?v=4g4g4g4g4g4',
         duration: '11:20',
-        thumbnail: 'https://img.youtube.com/vi/4g4g4g4g4g4/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'gold-2',
         title: 'Sovereign Gold Bonds (SGB) Explained: Complete Guide',
         url: 'https://www.youtube.com/watch?v=5h5h5h5h5h5',
         duration: '14:30',
-        thumbnail: 'https://img.youtube.com/vi/5h5h5h5h5h5/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'gold-3',
         title: 'Gold ETFs vs Gold Mutual Funds: Which is Better?',
         url: 'https://www.youtube.com/watch?v=6i6i6i6i6i6',
         duration: '9:45',
-        thumbnail: 'https://img.youtube.com/vi/6i6i6i6i6i6/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       }
     ]
   },
@@ -186,21 +186,21 @@ const learningHubContent: Topic[] = [
         title: 'Government Bonds Explained: Safe Investment Option',
         url: 'https://www.youtube.com/watch?v=7j7j7j7j7j7',
         duration: '13:15',
-        thumbnail: 'https://img.youtube.com/vi/7j7j7j7j7j7/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'bonds-2',
         title: 'How to Invest in Government Bonds: Step by Step',
         url: 'https://www.youtube.com/watch?v=8k8k8k8k8k8',
         duration: '16:20',
-        thumbnail: 'https://img.youtube.com/vi/8k8k8k8k8k8/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       },
       {
         id: 'bonds-3',
         title: 'Government Bonds vs Fixed Deposits: Which is Better?',
         url: 'https://www.youtube.com/watch?v=9l9l9l9l9l9',
         duration: '12:40',
-        thumbnail: 'https://img.youtube.com/vi/9l9l9l9l9l9/mqdefault.jpg'
+        thumbnail: 'https://img.youtube.com/vi/[VIDEO ID]/maxresdefault.jpg'
       }
     ]
   }
